@@ -1,1 +1,227 @@
 this is my first test file 
+
+
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 ~
+$ cd
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 ~
+$ cd /c
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c
+$ ls
+'$AV_ASW'/                  IO.SYS              ProgramData/
+'$Recycle.Bin'/             Jade/               Python34/
+ app/                       jboss-4.2.3.GA/     Recovery/
+ autoexec.bat               jet11.3-eval-x86/  'Support MAS'/
+ bootmgr                    Logs/               swapfile.sys
+ BOOTNXT                    MontagePhoto/       SybaseOT/
+ BOS-5.3.2/                 MSDOS.SYS          'System Volume Information'/
+ Config.Msi/                MSOCache/           TEMP/
+ config.sys                 opt/                Users/
+'Documents and Settings'@   pagefile.sys        wamp/
+ github/                    PerfLogs/           Windows/
+ hiberfil.sys              'Program Files'/
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c
+$ cd github/
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github
+$ ls
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github
+$ git config --global user.name"benthamisoufiane"
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github
+$ git config --global user.email benthamisoufiane1986@gmail.com
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github
+$ git clone https://github.com/benthamisoufiane/testgit.git
+Cloning into 'testgit'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github
+$ ls
+testgit/
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github
+$ cd testgit/
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$ ls
+README.md
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$ ls
+README.md  test.txt
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$ ls
+README.md  test
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$ git add test.txt
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   test.txt
+
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$ git commit -m "first commit" test.txt
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <benthamisoufiane1986@gmail.com>) not allowed
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$ git commit -m"first commit" test.txt
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <benthamisoufiane1986@gmail.com>) not allowed
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$ git config -- global user.email"benthamisoufiane1986@gmail.com"
+error: key does not contain a section: global
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$ git config -- global user.email "benthamisoufiane1986@gmail.com"
+error: key does not contain a section: global
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$ git commit -m"first commit" test.txt
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <benthamisoufiane1986@gmail.com>) not allowed
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$ git commit -m "first commit" test.txt
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <benthamisoufiane1986@gmail.com>) not allowed
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$ git config --global user.name"benthamisoufiane"
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$ git config --global user.email benthamisoufiane1986@gmail.com
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$ git commit -m"first commit" test.txt
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <benthamisoufiane1986@gmail.com>) not allowed
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$ git push -u origin master
+Everything up-to-date
+Branch master set up to track remote branch master from origin.
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   test.txt
+
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$ git commit -m "2 commit" test.txt
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: empty ident name (for <benthamisoufiane1986@gmail.com>) not allowed
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$ git config --global user.email benthamisoufiane1986@gmail.com
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$ git config --global user.name "benthamisoufiane"
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$ git commit -m "2 commit" test.txt
+[master f398f3e] 2 commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$ git commit -m "2 commit" test.txt
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$ git push -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 296 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/benthamisoufiane/testgit.git
+   ce9b64f..f398f3e  master -> master
+Branch master set up to track remote branch master from origin.
+
+soufianeMac@DESKTOP-3PI3IVO MINGW32 /c/github/testgit (master)
+$
